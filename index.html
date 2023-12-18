@@ -18,10 +18,10 @@
         <p class="logo">Shopiy</p>
         <nav class="nav">
           <ul class="nav-list list">
-            <li class="nav-item">About</li>
-            <li class="nav-item">Product</li>
-            <li class="nav-item">Service</li>
-            <li class="nav-item">Conatct</li>
+            <li class="nav-item"><a href="#" class="nav-link link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link">Product</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link">Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link">Conatct</a></li>
           </ul>
         </nav>
 
@@ -39,12 +39,19 @@
     <main>
       <section class="hero">
         <div class="container">
-          <p class="hero-guarantee">100% SATISFIED GUARANTEE</p>
+          <div class="subtitle-container">
+            <p class="hero-subtitle">100% SATISFIED GUARANTEE</p>
+          </div>
+          
           <h1 class="hero-title">Power up your shopiy products</h1>
           <p class="hero-info">
             More than 90,000+ companies trust our business. Get help from a
             dedicated shopify developer today.
           </p>
+          <form class="form">
+            <input type="email" placeholder="Your email address" class="input-form">
+            <button type="button" class="form-btn">Sign up</button>
+          </form>
           <ul class="hero-list list">
             <li class="hero-item">30 days free trial</li>
             <li class="hero-item">No credit card required</li>
@@ -57,7 +64,8 @@
           <div class="plan">
             <h2 class="plan-title">Make Progress</h2>
             <p class="plan-subtitle">with opening plans</p>
-            <button type="button" class="plan-btn">Buy Plan</button>
+            <div class="container-btn"><button type="button" class="plan-btn">Buy Plan</button></div>
+            
           </div>
           <div class="employee">
             <h2 class="name">Margaret Philips</h2>
@@ -74,7 +82,7 @@
             alt="telephone"
             class="building-services-img"
           />
-          <p class="building-services-subtitle">SERVICES WE PROVIDES</p>
+          <div class="services-container-subtitle"><p class="building-services-subtitle">SERVICES WE PROVIDES</p></div>
           <h2 class="building-services-title">
             Build on both: Google web stories and AMP website format
           </h2>
@@ -94,7 +102,7 @@
       </section>
       <section class="what-we-do">
         <div class="container">
-          <p class="what-we-do-subtitle">What we do</p>
+          <div class="what-we-do-container-subtitle"><p class="what-we-do-subtitle">What we do</p></div>
           <h2 class="what-we-do-title">
             Our creative process for your buisness
           </h2>
@@ -132,8 +140,10 @@
       </section>
       <section class="product-stories">
         <div class="container">
-          <p class="product-stories-subtitle">Our product stories</p>
-          <h2 class="product-title">Why product stories? Learn more</h2>
+          <div class="stories-subtitle-container">
+            <p class="product-stories-subtitle">Our product stories</p>
+          </div>
+          <h2 class="product-stories-title">Why product stories? Learn more</h2>
           <img
             src="./images/armchair.jpg"
             alt="blue-armchair"
@@ -176,7 +186,8 @@
             alt="man-with-white-shirt"
             class="creative-process-img"
           />
-          <p class="creative-process-subtitle">Creative Process</p>
+          <div class="process-subtitle-container"></div>
+          
           <h2 class="creative-process-title">
             Know your ads inside & out-perform
           </h2>
@@ -215,21 +226,21 @@
         <nav class="footer-nav">
           <ul class="footer-list list">
             <li class="footer-item">
-              <a href="#" class="footer-link link">About</a>
+              <a href="#" class="nav-link link">About</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link link">Product</a>
+              <a href="#" class="nav-link link">Product</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link link">Service</a>
+              <a href="#" class="nav-link link">Service</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link link">Contact</a>
+              <a href="#" class="nav-link link">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
-      <div class="container">
+      <!-- <div class="container">
         <ul class="social-media-list list">
           <li class="social-media-item">
             <a
@@ -264,7 +275,7 @@
             >
           </li>
         </ul>
-      </div>
+      </div> -->
     </footer>
   </body>
 </html>
