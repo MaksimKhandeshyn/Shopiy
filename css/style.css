@@ -200,6 +200,9 @@ img {
   line-height: 180%; /* 21.6px */
   padding-left: 38px;
 }
+.building-services{
+  margin-top: 109px;
+}
 .services-container-subtitle {
   width: 231px;
   height: 39px;
@@ -219,6 +222,7 @@ img {
   color: var(--text-color);
   font-size: 48px;
   line-height: 130%; /* 62.4px */
+  margin-top: 18px;
 }
 .sale-number {
   color: var(--accent-color);
@@ -230,6 +234,7 @@ img {
   color: var(--add-color-2);
   font-size: 14px;
   line-height: 180%; /* 25.2px */
+  margin-top: 13px;
 }
 .download-number {
   color: var(--dowload-color);
@@ -245,6 +250,7 @@ img {
   width: 141px;
   height: 39px;
   margin-top: 217px;
+  text-transform: uppercase;
 }
 .what-we-do-subtitle {
   color: var(--add-color);
@@ -263,6 +269,7 @@ img {
   color: var(--add-color-2);
   font-size: 16px;
   line-height: 180%; /* 28.8px */
+  margin-top: 34px;
 }
 
 .process-title {
@@ -274,6 +281,11 @@ img {
   color: var(--White-Shade---1, #868695);
   font-size: 14px;
   line-height: 180%; /* 25.2px */
+  margin-top: 19px;
+}
+
+.product-stories {
+  margin-top: 184px;
 }
 
 .stories-subtitle-container {
@@ -289,22 +301,32 @@ img {
   font-size: 14px;
   line-height: 180%; /* 25.2px */
   letter-spacing: 1.05px;
+  text-transform: uppercase;
 }
 .product-stories-title {
   color: var(--text-color);
   font-size: 48px;
   line-height: 130%; /* 62.4px */
   width: 533px;
+  margin-top: 19px;
 }
 .product-title {
   color: var(--text-color);
   font-size: 20px;
   line-height: 130%; /* 26px */
+  margin-top: 48px;
+}
+.optimizes {
+  margin-top: 91px;
 }
 .product-info {
   color: var(--add-color-2);
   font-size: 14px;
   line-height: 180%; /* 25.2px */
+}
+
+.creative-process {
+  margin-top: 198px;
 }
 .process-subtitle-container {
   width: 191px;
@@ -325,11 +347,14 @@ img {
   font-weight: 700;
   line-height: 130%; /* 62.4px */
   width: 533px;
+  margin-top: 18px;
 }
 .creative-process-info {
   color: var(--White-Shade---1, #868695);
   line-height: 180%; /* 28.8px */
   width: 461px;
+  margin-top: 21px;
+  margin-top: 34px;
 }
 
 .satisfied-clients {
@@ -346,7 +371,9 @@ img {
   line-height: 130%; /* 31.2px */
   margin-top: 22px;
 }
-
+.contact-us {
+  margin-top: 172px;
+}
 .contact-us-title {
   padding-top: 172px;
   color: var(--text-color);
@@ -358,5 +385,10 @@ img {
   color: var(--add-color-2);
   font-weight: 400;
   line-height: 180%; /* 28.8px */
+  text-align: center;
+  margin-top: 17px;
+}
+.contact-us-form {
+  margin-top: 49px;
   text-align: center;
 }
