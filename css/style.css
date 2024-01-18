@@ -4,7 +4,7 @@
   --add-color-2: #868695;
   --bg-cololr: #0e0e2c;
   --text-color: #fff;
-  --dowload-color: #FB5607;
+  --dowload-color: #fb5607;
 }
 html {
   box-sizing: border-box;
@@ -200,7 +200,7 @@ img {
   line-height: 180%; /* 21.6px */
   padding-left: 38px;
 }
-.building-services{
+.building-services {
   margin-top: 109px;
 }
 .services-container-subtitle {
@@ -342,7 +342,7 @@ img {
   letter-spacing: 1.05px;
 }
 .creative-process-title {
-  color: var(--text-color);   
+  color: var(--text-color);
   font-size: 48px;
   font-weight: 700;
   line-height: 130%; /* 62.4px */
@@ -390,5 +390,30 @@ img {
 }
 .contact-us-form {
   margin-top: 49px;
-  text-align: center;
+}
+.contact-us-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-us-input {
+  background-color: var(--bg-cololr);
+  border: 1px solid #626276;
+  border-radius: 18px;
+  padding: 23px 327px 23px 22px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+.contact-us-btn {
+  height: 50px;
+  width: 126px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--bg-cololr);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 180%;
 }
