@@ -2,7 +2,7 @@
   --accent-color: #ffbe0b;
   --add-color: #3a86ff;
   --add-color-2: #868695;
-  --bg-cololr: #0e0e2c;
+  --bg-color: #0e0e2c;
   --text-color: #fff;
   --dowload-color: #fb5607;
 }
@@ -11,7 +11,7 @@ html {
 }
 body {
   font-family: "Montserrat";
-  background-color: var(--bg-cololr);
+  background-color: var(--bg-color);
 }
 *::before,
 *::after {
@@ -54,45 +54,60 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*Container*/
 .container {
   width: 950px;
   padding: 0 15px;
   margin: 0 auto;
 }
-/*End of Container*/
-
-/*Header*/
 .logo {
   color: var(--text-color);
   padding-top: 40px;
 }
+.container-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .nav-list {
+  display: flex;
   padding-top: 46px;
+}
+.nav-item:first-child {
+  margin-left: 266px;
 }
 .nav-link {
   color: var(--text-color);
   font-size: 16px;
-  line-height: 180%; /* 28.8px */
+  line-height: 180%;
+  margin-left: 53px;
 }
 .registration-list {
   padding-top: 35px;
+  display: flex;
+}
+
+.registration-item:first-child {
+  margin-left: 112px;
 }
 .registration-btn {
   color: var(--accent-color);
   font-size: 16px;
-  line-height: 180%; /* 28.8px */
-  padding: 11px 34px 11px 35px;
-  background: #0e0e2c;
+  line-height: 180%;
+  padding: 10px 34px 10px 35px;
+  background: var(--bg-color);
   border: 1px solid var(--accent-color);
   border-radius: 10px;
+  width: 126px;
+  height: 50px;
+  margin-left: 27px;
 }
+
 .registration-btn:hover {
   color: var(--bg-cololr);
   background-color: var(--accent-color);
   font-weight: 600;
+  /* min-width: 126px; */
 }
-/*The end of Header*/
 .subtitle-container {
   background-color: #172656;
   width: 257px;
@@ -148,7 +163,7 @@ img {
   width: 192px;
   height: 250px;
   border-radius: 10px;
-  background: #fff;
+  background: var(--text-color);
   /* box-shadow: -12px 13px 30px 0px rgba(0, 0, 0, 0.1); */
 }
 .plan-title {
